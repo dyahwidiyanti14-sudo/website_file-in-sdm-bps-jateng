@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  /* Base */
+  --background: #ffffff;
+  --foreground: #171717;
+  --text-dark: #2c3e50;
+  --text-muted: #546e7a;
+  --bg-light: #f8fafc;
+
+  /* Brand blue (primary identity color across the whole site) */
+  --bps-blue: #1e88e5;
+  --blue-primary: #1976d2;
+  --blue-deep: #1565c0;
+  --blue-main: #007bff;
+  --primary-navy: #122845;
+  --blue-soft: #e3f2fd;
+
+  /* Accents */
+  --orange-accent: #ff9800;
+  --orange-hover: #f57c00;
+  --orange-main: #fd7e14;
+  --orange-soft: #fff3e0;
+
+  --green-main: #28a745;
+  --green-dark: #2e7d32;
+  --green-accent: #4caf50;
+  --green-soft: #e8f5e9;
+
+  --purple-royal: #6f42c1;
+  --teal-main: #0d9488;
+
+  /* Beranda brand palette (Fraunces/IBM Plex Sans design) */
+  --navy: #122845;
+  --navy-2: #1b3a5c;
+  --brand-orange: #e58a2a;
+  --sky: #7cc6e8;
+  --ink: #1e2733;
+  --paper: #f7f6f1;
+  --paper-2: #efede4;
+  --line: #e3dfd4;
+  --brand-green: #2f7a5c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.font-fraunces {
+  font-family: "Fraunces", serif;
+}
+
+.font-plex {
+  font-family: "IBM Plex Sans", sans-serif;
+}
